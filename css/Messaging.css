@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Ariel", sans-serif;
+  background-color: #e9eff0;
+}
+
+h1 {
+  font-size: 15px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-width {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4a55a2;
+  align-items: center;
+  height: 56px;
+}
+i {
+  font-size: 30px;
+  font: bold;
+}
+.icon-r-g {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgb(41, 252, 41);
+  position: relative;
+  left: 55px;
+  top: 25px;
+}
+.nav-top {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navigation > i {
+  position: absolute;
+  left: 460px;
+}
+
+.user-pf {
+  display: flex;
+}
+.img-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.icon-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 80px;
+}
+.icon-top > i {
+  font-size: 0px;
+}
+.txt-top {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.box-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  height: 32px;
+  border-radius: 15px;
+  background: #7895cb;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+.img-user-chat {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  left: -45px;
+}
+.box-chat-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 32px;
+  border-radius: 15px;
+  background: #c5dff8;
+  margin-left: 230px;
+}
+h5 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  align-items: center;
+}
+
+.img-chat-detail {
+  max-width: 216px;
+  max-height: 135px;
+  border-radius: 10px;
+}
+
+
+.buttom-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  height: 40px;
+  background-color: #7895cb;
+}
+p {
+  text-indent: 15px;
+}
+.icon-buttom {
+  display: flex;
+  gap: 22px;
+  margin-left: 15px;
+}
+.btn-message {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #cbcbcb;
+}
+.btn-message > i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.button{
+  background: transparent;
+}

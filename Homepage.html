@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/Homepage.css">
+  <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+  <div class="header">
+    <h1>・ᴥ・ Anti-Social ・ᴥ・</h1>
+  </div>
+  <div class="nav">
+    <a href="Homepage.html">Home</a>
+    <a href="Profile.html">Profile</a>
+    <a href="Messages.html">Messages</a>
+    <a href="Notifications.html">Notifications</a>
+    <a onclick="toggleMenu()">Settings</a>
+    <a href="Login.html">Logout</a>
+
+    <div class="sub-menu-wrap" id=""subMenu>
+      <div class="sub-menu">
+          <div class="user-info">
+              <img src="/css/profile.jpg" alt="">
+              <h3>Dovabear</h3>
+  
+          </div>
+          <hr>
+  
+          <a href="" class=""sub-menu-link>
+              <img src="/css/profile1.png" alt="">
+              <p>Edit Profile</p>
+              <span>></span>
+          </a>
+          <a href="" class=""sub-menu-link>
+              <img src="/css/settings.png" alt="">
+              <p>Settings & Privacy</p>
+              <span>></span>
+          </a>
+          <a href="" class=""sub-menu-link>
+              <img src="/css/help.png" alt="">
+              <p>Help & Support</p>
+              <span>></span>
+          </a>
+          <a href="" class=""sub-menu-link>
+              <img src="/css/logout.png" alt="">
+              <p>Logout</p>
+              <span>></span>
+          </a>
+      </div>
+  </div>
+  </div class="container">
+  <div class="content">
+    <h2>Welcome to Anti-Social :3</h2>
+    
+     <div class="post-form">
+       <h3>Create a Post:</h3>
+       <textarea id="post-text"></textarea><br>
+       <input type="file" id="post-image"><br>
+       <button onclick="createPost()">Post</button>
+     </div>
+
+       <h2>Posts:</h2>
+
+        <section class="body-contain container-width">
+        <div class="contain-top-post">
+          <div class="img-user">
+            <img src="/css/rangsey2.jpeg" alt="" />
+          </div>
+          <div class="name-date-post">
+            <div><h3>Rangsey</h3></div>
+            <div>
+              <h5>4 weeks ago</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container-post">
+          <div class="post-detail">
+            <div class="title-post">
+              <div>
+                <h4>Felt pretty might delete later</h4>
+              </div>
+              <div class="post-contain">
+                <img src="/css/rangsey.jpg" alt="" />
+              </div>
+            </div>
+            <div class="btn-contain">
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                  <h5>♡ Likes 146</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-comment"></i>
+                </div>
+                <div>
+                  <h5>💬 56 comments</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div>
+                  <h5>⮃ 15 shares</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        
+      <section class="body-contain container-width">
+        <div class="contain-top-post">
+          <div class="img-user">
+            <img src="/css/vuth.jpeg" alt="" />
+          </div>
+          <div class="name-date-post">
+            <div><h3>Vuth</h3></div>
+            <div>
+              <h5>1 weeks ago</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container-post">
+          <div class="post-detail">
+            <div class="title-post">
+              <div>
+                <h4>Walking in nature</h4>
+              </div>
+              <div class="post-contain">
+                <img src="/css/vuth2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="btn-contain">
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                  <h5>♡ Likes 65</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-comment"></i>
+                </div>
+                <div>
+                  <h5>💬 30 comments</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div>
+                  <h5>⮃ 5 shares</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="body-contain container-width">
+        <div class="contain-top-post">
+          <div class="img-user">
+            <img src="/css/theary.jpg" alt="" />
+          </div>
+          <div class="name-date-post">
+            <div><h3>Theary</h3></div>
+            <div>
+              <h5>2 weeks ago</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container-post">
+          <div class="post-detail">
+            <div class="title-post">
+              <div>
+                <h4>Beach Trip</h4>
+              </div>
+              <div class="post-contain">
+                <img src="/css/theary2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="btn-contain">
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                  <h5>♡ Likes 569</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-comment"></i>
+                </div>
+                <div>
+                  <h5>💬 240 comments</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div>
+                  <h5>⮃ 80 shares</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="body-contain container-width">
+        <div class="contain-top-post">
+          <div class="img-user">
+            <img src="/css/Minh.jpg" alt="" />
+          </div>
+          <div class="name-date-post">
+            <div><h3>Layminh</h3></div>
+            <div>
+              <h5>1 month ago</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container-post">
+          <div class="post-detail">
+            <div class="title-post">
+              <div>
+                <h4>Rome</h4>
+              </div>
+              <div class="post-contain">
+                <img src="/css/minh2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="btn-contain">
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                  <h5>♡ Likes 5k</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-regular fa-comment"></i>
+                </div>
+                <div>
+                  <h5>💬 1k comments</h5>
+                </div>
+              </div>
+              <div class="btn-hero">
+                <div class="icon-size">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div>
+                  <h5>⮃ 498 shares</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+        
+     </div>
+
+    
+   </div>
+
+  
+   <script>
+     function createPost() {
+       var postText = document.getElementById("post-text").value;
+       var postImage = document.getElementById("post-image").files[0];
+       var postsDiv = document.querySelector(".posts");
+       var postDiv = document.createElement("div");
+       postDiv.className = "post";
+       if (postText) {
+         var postTextP = document.createElement("p");
+         postTextP.textContent = postText;
+         postDiv.appendChild(postTextP);
+       }
+       if (postImage) {
+         var postImageImg = document.createElement("img");
+         postImageImg.src = URL.createObjectURL(postImage);
+         postImageImg.style.maxWidth = "100%";
+         postDiv.appendChild(postImageImg);
+       }
+       postsDiv.appendChild(postDiv);
+     }
+   </script>
+<script>
+  let subMenu = document.getElementById("subMenu");
+
+  function toggleMenu(){
+      subMenu.classList.toggle("open-menu")
+  }
+</script>
+  
+ </body>
+
+  
+</html>
+
